@@ -1,3 +1,8 @@
 import {combineReducers} from 'redux';
+import characters from './characters';
 
-export default combineReducers({});
+// console.log('characters', characters);
+
+export default combineReducers({
+    characters
+});
